@@ -17,7 +17,7 @@ section {
   padding: 100px 0;
 }
 .bg-gray {
-  background-color: #f5f5f5;
+  background-color: #000;
 }
 .bg-dark {
   color: white;
@@ -206,7 +206,7 @@ hr.colored {
 .navbar-default .navbar-brand,
 .navbar-inverse .navbar-brand {
   padding: 0 15px;
-  color: white;
+  color: #0000FF;
   opacity: 1;
   text-decoration: none;
   -webkit-transition: all 0.5s;
