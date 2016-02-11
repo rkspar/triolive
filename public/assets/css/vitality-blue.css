@@ -21,7 +21,7 @@ section {
 }
 .bg-dark {
   color: white;
-  background-color: #222222;
+  background-color: #000;
 }
 @media (max-width: 767px) {
   section {
@@ -196,7 +196,7 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #000;
 }
 .navbar-default,
 .navbar-inverse {
@@ -265,7 +265,7 @@ header {
   display: block;
   height: auto;
   width: auto;
-  background-color: #222222;
+  background-color: #000;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -333,9 +333,9 @@ header .scroll-down .btn:hover {
     text-align: center;
     width: 50%;
     margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: bottom;
+    top: 80%;
+    left: 1%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -379,7 +379,7 @@ header.video .scroll-down {
 }
 aside.cta-quote {
   color: white;
-  background-color: #222222;
+  background-color: #000;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -575,7 +575,7 @@ aside.cta-quote span.quote {
   width: 75px;
   line-height: 70px;
   text-align: center;
-  border: 3px solid #222222;
+  border: 3px solid #000;
   border-radius: 100%;
   font-size: 30px;
 }
@@ -616,10 +616,10 @@ aside.cta-quote span.quote {
 .portfolio-carousel {
   padding: 0;
   color: white;
-  background-color: #222222;
+  background-color: #000;
 }
 .portfolio-carousel .item {
-  background-color: #222222;
+  background-color: #000;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -723,7 +723,7 @@ aside.cta-quote span.quote {
   display: none;
 }
 .portfolio-modal .modal-content {
-  color: white;
+  color: black;
   background: transparent;
   border-radius: 0;
   background-clip: border-box;
@@ -799,9 +799,9 @@ aside.cta-quote span.quote {
   font-weight: 900;
   letter-spacing: 1px;
   font-size: 12px;
-  color: #222222;
+  color: #000;
   background: transparent;
-  border: 1px solid #222222;
+  border: 1px solid #000;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -821,7 +821,7 @@ aside.cta-quote span.quote {
 #portfoliolist .portfolio .portfolio-wrapper {
   overflow: hidden;
   position: relative !important;
-  background: #222222;
+  background: #000;
   cursor: pointer;
 }
 #portfoliolist .portfolio .portfolio-wrapper img {
@@ -870,7 +870,7 @@ aside.cta-quote span.quote {
 }
 .pricing {
   color: white;
-  background-color: #222222;
+  background-color: #000;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -880,7 +880,7 @@ aside.cta-quote span.quote {
 .pricing .pricing-item {
   text-align: center;
   background: white;
-  color: #222222;
+  color: #000;
   padding: 30px;
   -webkit-box-shadow: 0px 0px 30px 5px rgba(34, 34, 34, 0.75);
   -moz-box-shadow: 0px 0px 30px 5px rgba(34, 34, 34, 0.75);
@@ -1031,8 +1031,8 @@ footer.footer .copyright p.small {
   outline: none;
 }
 .btn-outline-dark {
-  color: #222222;
-  border: 1px solid #222222;
+  color: #000;
+  border: 1px solid #000;
   background: transparent;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1060,7 +1060,7 @@ footer.footer .copyright p.small {
 .btn-full-width {
   border: 0;
   border-radius: 0;
-  background-color: #222222;
+  background-color: #000;
   color: white;
   padding: 50px 0;
   font-size: 26px;
